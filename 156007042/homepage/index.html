@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <nav class="navbar col-12 position-fixed navbar-expand-lg bg-body-tertiary" style="z-index: 99;">
+            <div class="container-fluid" col-11 m-auto>
+              <a class="navbar-brand" href="#">Dogs</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Link</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <br><br><br>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/dog3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/dog2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/dog1.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4" col-11 m-auto>
+            <div class="col">
+              <div class="card">
+                <img src="img/border-collie.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bordie Colie</h5>
+                  <p class="card-text">According to Stanley Coren, the Border Collie is the most intelligent dog in the world.
+                    This means that most individuals of this breed can learn new commands in less than five seconds and follow them at least 95% of the time.
+                    In other words, it is a very obedient furry and suitable for work.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/poodle.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Poodle</h5>
+                  <p class="card-text">Poodles are ranked second among the most intelligent dogs in the world due to their working capacity, according to Coren's research.
+                    In fact, the breed is not only intelligent, but also active and proud, with the added benefit of being hypoallergenic.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/pastor_alemao.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">German Shepherd</h5>
+                  <p class="card-text">German Shepherds happily act as police dogs and are used as medical assistance dogs and therapy dogs as well.
+                    Therefore, it is not surprising that consistent obedience is standard in the breed. Training dogs of this breed can be a relatively simple task with good results. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <nav>
+            <div>
+              <h2>
+                Why should we have a dog according to <a href="https://www.health.harvard.edu/promotions/harvard-health-publications/get-healthy-get-a-dog-the-health-benefits-of-canine-companionship">Harvard?</a>
+              </h2>
+              <p class="paragrafo">
+                Above we have the ordered list of the top 3 most intelligent dogs. In this sense, dogs in general are essential for our daily lives,
+                because in addition to being man's best friend, they are an excellent company that brings comfort, wards off need and loneliness. Furthermore, having a pet helps us to be more responsible,
+                due to the daily care it requires. The company of a pet can be especially important for the elderly, as it helps occupy their mind and time.<br><br>
+                Anyone who has a dog knows how much good these animals do for us, right? And anyone who loves dogs does not give up their company on any occasion, as they know the benefits of having a dog and the importance of dog love.
+
+                If you are thinking about having a dog, know that it will require some work. You will practically have to take care of him like a child: give him food, water, bath, walks, play, give medicine when necessary and above all,
+                give him lots of love! But it's all worth it, do you know why? Because dog love is priceless! They are loyal and true friends, who love you regardless of what or who you are. Did you know that there are many benefits of having a dog?
+
+                If you work a lot, spend all day away from home and when you arrive you are tired and stressed, there is nothing better than having someone who loves you to welcome you and who has waited all day for your company. Your dog will inevitably
+                cheer you up after a busy day! When you get home, he's going to have that party! Jumping, running from one side to the other, barking, licking you, eager to play and stay close to you! And in this friendship relationship, affection must be
+                reciprocal. Certainly, with all this joy, there is no stress that lasts.<br><br>
+
+                Furthermore, dogs can be considered social catalysts? Simply because they help people get out of the house, approach strangers easily and make new friends. Anyone who has a dog knows very well that when they go out for a walk with their dog, it often
+                happens that they talk to another person who is also walking their dog, have fun, exchange experiences and stories about them, etc. Human socialization is very beneficial to health, even more so when dogs lend a little help!
+
+                So, by being more active, you are less likely to develop depression. Dogs avoid people's isolation and, with their company, can help people to be happier and face their problems.
+
+                The benefits of having a dog are countless, after all, with them we create very strong bonds of love, affection, companionship and friendship. Having one or more dogs is really nice, and it's really worth it, because our lives are much happier!
+                Anyone who has a dog knows the importance of loving dogs.
+
+              </p>
+            </div>
+          </nav>
+          <style>
+            footer{
+              background-color: #333;
+              color: #fff;
+              padding: 20px;
+              text-align: center;
+              position: fixed;
+              bottom: 0;
+              width: 100%;
+            }
+
+            .linkedin-btn{
+                background-color: #0077B5;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 16px;
+                cursor: pointer;
+              }
+
+            .linkedin-bnt:hover{
+              background-color: #004D7E;
+            }
+          </style>
+        </footer>
+          <p>Visit my profile in LinkedIn</p>
+          <button id="linkedin-bnt" class="linkedin-bnt">LinkedIn</button>
+        </footer>
+
+          <script>
+            document.getElementById('linkedin-bnt').addEventListener('click', function(){
+              window.location.href = 'https://www.linkedin.com/in/vinicius-gonçalves-6905632b2/';
+            });
+          </script>
+    </body>
+</html>

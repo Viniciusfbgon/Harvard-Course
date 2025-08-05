@@ -1,0 +1,103 @@
+.header {
+    color: black;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 80px;
+    background-color: #008B8B;
+    font-family: "sans-serif";
+    font-size: 70px;
+}
+
+.run{
+    width: 1200px;
+    max-width: 110%;
+}
+
+
+.p {
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: justify;
+}
+
+.card {
+    position: absolute;
+    top: 480px;
+    margin-left: 15px;
+}
+
+.carde{
+    position: absolute;
+    top: 3630px;
+    margin-left: 1540px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 28px;
+}
+
+.eat{
+    width: 900px;
+    max-width: 110%;
+}
+
+.mike{
+    width: 800px;
+    max-width: 110%;
+}
+
+
+
+.fa-linkedin{
+    font-size: 30px;
+    padding-top: 10px;
+    color: #00008B
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        padding: 40px;
+        font-size: 40px;
+    }
+
+    .p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        padding: 60px;
+        font-size: 50px;
+    }
+
+    .p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 18px;
+    }
+
+    .card {
+        position: absolute;
+        top: 480px;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header {
+        padding: 80px;
+}
+
+}
+
+
+@media screen and (max-width: 960px) {
+    .card {
+      display: none;
+    }
+  }

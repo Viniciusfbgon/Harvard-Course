@@ -1,0 +1,34 @@
+h2{
+    margin: 30px;
+    text-decoration: none;
+}
+
+.paragrafo{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.linkedin-bnt:hover{
+    background-color: #4682B4;
+}
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+.linkedin-btn{
+    background-color: #0077B5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
