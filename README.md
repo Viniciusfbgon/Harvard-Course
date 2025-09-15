@@ -4,7 +4,7 @@ Este repositório contém todos os projetos e exercícios que desenvolvi ao long
 
 ---
 
-## 🧠 Sobre o curso
+## Sobre o curso
 
 CS50 é um curso introdutório ao mundo da ciência da computação que aborda desde os fundamentos de programação até conceitos mais avançados, como:
 
